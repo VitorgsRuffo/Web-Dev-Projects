@@ -1,0 +1,47 @@
+
+body{
+	/*these two means: maintains the width 700px if it's possible. If it's not then the width will bel 80% */
+	max-width: 700px;
+	width: 80%;
+
+	height: 100%;
+
+	border: 25px solid #bdc3c7;
+
+	margin: 25px auto 25px auto; 
+
+	font-family: 'Source Sans Pro';
+}
+
+div{
+	height: 50%;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+h1{
+	color: #2c3e50;
+	letter-spacing: 2px;
+}
+
+h3{
+	color: #3498db;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.fp{
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+hr{
+
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+

@@ -1,0 +1,93 @@
+
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: 'Bangers', cursive;
+}
+
+
+h1 {
+	color: white;
+
+	text-align: center;
+	font-weight: normal;
+	/*20px top and bottom, 0px left and right*/
+	padding: 20px 0;
+
+	background: steelblue;
+	margin: 0;
+}
+
+
+.square {
+
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 25%;
+	transition: background 0.6s;
+
+	/*some extra properties to make the transition animation happen in all browsers*/
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+
+}
+
+
+#container {
+	/*0 to top and bottom and auto (destribute the remaining px's) to left and right.*/
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+
+#line {
+
+	background: white;
+	height: 30px;
+	text-align: center;
+
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
+	color: steelblue;
+	font-size: 25px;
+}
+
+.selected {
+	color: white;
+	background: steelblue;
+}
+
+#pickedColorDisplay{
+	font-size: 200%;
+}
+
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	/*removes the line that appears when you click the button*/
+	outline: none;
+	/*fade property: when (in this case) all properties change, they should take 0.3s to change*/
+	transition: all, 0.3s;
+
+	/*some extra properties to make the transition animation happen in all browsers*/
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+}
+
+button:hover{
+	color: white;
+	background: steelblue;
+}
