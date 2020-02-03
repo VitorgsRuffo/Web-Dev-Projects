@@ -8,4 +8,4 @@ Technologies used so far:
   - CSS;
   - JavaScript (Vanilla);
 
-  -jQuery.
+  - jQuery.
