@@ -1,11 +1,8 @@
 # Web-Dev-Projects
-Coded along Web Development Projects
+### Coded along web development projects
 
-
-Technologies used so far:
-
-  - HTML5;
-  - CSS;
-  - JavaScript (Vanilla);
-
-  - jQuery.
+#### Stack:
+* HTML5
+* CSS3
+* JavaScript (Vanilla)
+* jQuery
